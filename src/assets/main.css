@@ -1,0 +1,27 @@
+
+html {
+  /* 隐藏滚动条 */
+  scrollbar-width: none;
+}
+
+
+#app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /* 移除默认的 body 外边距 */
+  padding: 0;
+  /* 移除默认的 body 内边距 */
+}
+
+.bgStyle {
+  background-image: url('../../public/[米室]\ 81251528.png');
+  background-attachment: fixed;
+  /* 关键属性 */
+  background-size: cover;
+  /* 覆盖整个容器 */
+  background-position: center;
+  /* 图片居中 */
+  background-repeat: no-repeat;
+  position: relative;
+}
